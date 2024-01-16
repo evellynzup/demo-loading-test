@@ -8,6 +8,7 @@ metadata:
   stack: springbot@3.0.0
 spec:
   type: app
+  app-id: 01HMA0H81EEVGZMETW5813H8RM
   plugins:
     - name: loading-test/springbot@3.0.0/app-spring@0.0.1
       alias: app-spring-1705437579320
