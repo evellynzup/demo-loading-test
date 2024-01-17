@@ -1,5 +1,6 @@
 ## StackSpot Plugin
 
+## Jinja
 ## asdfsdfdfdfds
 
 You can use jinja to make a template-data folder more dynamic.
@@ -8,4 +9,4 @@ complete documentation of jinja: https://jinja.palletsprojects.com/en/3.0.x/temp
 
 ### Example Inputs:
 - Resource: Client
-- Method: GET
+- Method: GET- Method: GET

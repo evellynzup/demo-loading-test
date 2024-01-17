@@ -27,6 +27,23 @@ spec:
             alias: aws-eks-conn
       links:
         generates: []
+    - name: loading-test/loadtesteks@1.0.0/eksloadtest@0.0.1
+      alias: eksloadtest-1705515176462
+      plugin-version-id: 01HMC7F14125204H1VATRQKAAF
+      stack-version-id: 01HMC6KS48BHXXSJKJSJSH96KM
+      type: infra
+      inputs:
+        resource: Client
+        method: GET
+      inputs-envs: {}
+      connections:
+        generates:
+          - type: aws-eks-conn
+            selected: loadtestconn
+            alias: loadingtest
+        requires: []
+      links:
+        generates: []
   global-inputs: {}
   global-computed-inputs: {}
   repository: https://github.com/evellynzup/demo-loading-test.git
