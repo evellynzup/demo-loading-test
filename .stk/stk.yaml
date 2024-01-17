@@ -21,7 +21,10 @@ spec:
       inputs-envs: {}
       connections:
         generates: []
-        requires: []
+        requires:
+          - type: aws-eks-conn
+            selected: eks-operation-dev
+            alias: aws-eks-conn
       links:
         generates: []
   global-inputs: {}
